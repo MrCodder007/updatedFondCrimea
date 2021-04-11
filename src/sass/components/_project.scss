@@ -1,0 +1,185 @@
+.project {
+    margin-top: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 135px;
+
+    &__wrapper {
+        position: relative;
+        width: 1435px;
+        margin: 0 auto;
+
+        .project-list__wrap {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 45px;
+
+            .slick-prev {
+                left: -6%;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 12px;
+                    right: 38%;
+                    top: 41%;
+                    height: 12px;
+                    border: 3px solid #FFFFFF;
+                    border-top: transparent;
+                    border-right: transparent; 
+                    transform: rotate(45deg);
+                }
+            }
+
+            .slick-next {
+                right: -6%;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 12px;
+                    left: 38%;
+                    top: 41%;
+                    height: 12px;
+                    border: 3px solid #FFFFFF;
+                    border-top: transparent;
+                    border-right: transparent; 
+                    transform: rotate(-135deg);
+                }
+            }
+
+            .slick-arrow {
+                width: 65px;
+                top: 46%;
+                height: 65px;
+                background-color: #E0E3ED;
+                border-radius: 50%;
+
+                &:hover {
+                    background-color: #92BEDE;
+                }
+
+                &:active {
+                    background-color: #739FBE;
+                }
+            }
+        }
+    }
+
+    &-list {
+        max-width:465px;
+        border-radius: 6px;
+        
+        &:hover {
+            height: 100%;
+            // box-shadow: 0px 4px 18px 1px rgba(103, 116, 125, 0.35);
+            // transform: translate3d(5px, 5px, 5px);
+            // transform: translateZ(-5px);
+        }
+
+        .top-img {
+            border-top-right-radius: 6px;
+            border-top-left-radius: 6px;
+        }
+
+        &__item {
+            background-color: #FFFFFF;
+            padding-top: 7px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 20px;
+            min-height: 282px;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+
+            .item-slide {
+                display: flex;
+                justify-content: space-between;
+
+                &__img {
+                    width: 81px !important;
+                    height: 46px;
+                    cursor: pointer;
+                }
+
+                .draggable {
+                    padding: 0 !important;
+                    width: 100%;
+                }
+            }
+            
+            .item-description {
+                margin-top: 25px;
+
+                &__title {
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #000;
+                }
+
+                &__sub {
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000;
+                    margin: 16px 0;
+                }
+
+                .description-sub {
+                    display: flex;
+
+                    .sub-text {
+                        margin-right: 65px;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: #000;
+
+                        span {
+                            font-weight: 400;
+                        }
+
+                        &__location {
+ 
+                        }
+
+                        &__stage {
+
+                        }
+
+                        &__date {
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 28px;
+                            color: #000;
+
+                            span {
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .all-projects {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                text-decoration: none;
+                font-weight: 700;
+                margin-top: 39px;
+                font-size: 16px;
+                line-height: 19px;
+                color: #183245;
+
+                &__text {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}

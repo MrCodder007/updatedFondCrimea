@@ -1,0 +1,164 @@
+.main-header {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 376px;
+    width: 100%;
+    background-image: url(../img/bg-img-inner-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        height: 376px;
+    }
+
+    &__title {
+        font-weight: 400;
+        align-self: center;
+        justify-self: center;
+        font-size: 30px;
+        line-height: 37px;
+        color: #183245;
+    }
+
+    .header-languages {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 101px;
+
+        &__link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background-color: #FFFFFF;
+            color: #92BEDE;
+            width: 39px;
+            height: 40px;
+            margin-top: 31px;
+            border-radius: 3px;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 19px;
+            margin-left: 3px;
+
+            &:focus {
+                color: #FFFFFF;
+                background-color: #92BEDE;
+            }
+        }
+
+        .chosen {
+            background-color: #92BEDE;
+            color: #FFFFFF;
+        }
+    }
+
+    .nav-menu--active + .main-header__title {
+        margin-left: 45.4vw;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 900px) {
+
+    .main-header .header-languages {
+        margin-right: 0;
+    }
+
+    .nav-menu__toggler {
+        left: 8px;
+    }
+
+    .main-header {
+        padding-right: 8px;
+    }
+
+    .main-header__title {
+        width: 262px;
+    }
+
+    .about-inner-strategy .strategy-fund .strategy-fund__title {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .about-inner-strategy .strategy-fund .strategy-fund__subtitle {
+        font-size: 16px;
+    }
+
+    .about-inner-strategy .strategy-fund {
+        width: auto !important;
+        max-width: 900px;
+        flex-direction: column;  
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-inner-strategy .strategy-plans {
+        width: auto !important;
+        max-width: 900px;
+        flex-direction: column;
+        justify-content: center !important;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-inner-strategy .strategy-plans .plans-block:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .about-statistic-inner {
+        height: auto !important;
+        min-height: 418px;
+        padding-left: 8px;
+    }
+
+    .about-statistic-inner .about-statistic {
+        margin-bottom: 56px;
+    }
+
+    .about-inner-strategy .strategy-plans .plans-block__title {
+        font-size: 25px !important;
+    }
+
+    .about-structure-inner__wrapper .fund-duties {
+        display: none;
+    }
+
+    .main-header__title {
+        display: none;
+    }
+
+    .main-header, .main-header__wrap {
+        height: 100px;
+    }
+
+    .about-structure-inner {
+        padding: 0 15px;
+    }
+
+    .about-structure-inner, .about-structure-inner__wrapper, .project-header, .project-header__wrap {
+        max-width: 900px;
+        width: 100%;
+        // padding-left: 8px;
+        // padding-right: 8px;
+    }
+
+    .about-structure-inner .fund-structure .structure-position {
+        padding-left: 0 !important;
+    }
+
+    .about-structure-inner .fund-structure .structure-members__wrap {
+        padding-left: 0 !important;
+    }
+
+    .about-structure-inner .fund-structure .structure-members__name {
+        font-size: 16px;
+    }
+}

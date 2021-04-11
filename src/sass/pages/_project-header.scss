@@ -1,0 +1,195 @@
+.project-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 376px;
+    width: 100%;
+    background-size: cover;
+    z-index: 11111;
+
+    .bg-rgba {
+        z-index: -1;
+        width: 100%;
+        min-height: 376px;
+        position: absolute;
+        background-color: rgba(77, 77, 77, 0.74);
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        height: 376px;
+        // background-image: url(../img/bg-img-inner-header.png);
+        // background-size: cover;
+
+        .nav-menu__toggler {
+
+            &::before {
+                background-color: #FFFFFF;
+            }
+
+            &::after {
+                background-color: #FFFFFF;
+            }
+        }
+
+        .btn-color {
+
+            &::before {
+                background-color: #000;
+            }
+
+            &::after {
+                background-color: #000;
+            }
+        }
+    }
+
+    &__main {
+        font-weight: 400;
+        align-self: center;
+        justify-self: center;
+        font-size: 30px;
+        line-height: 37px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    &__sub {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    .header-languages {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 101px;
+
+        &__link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background-color: #FFFFFF;
+            color: #92BEDE;
+            width: 39px;
+            height: 40px;
+            margin-top: 31px;
+            border-radius: 3px;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 19px;
+            margin-left: 3px;
+
+            &:focus {
+                color: #FFFFFF;
+                background-color: #92BEDE;
+            }
+        }
+
+        .chosen {
+            background-color: #92BEDE;
+            color: #FFFFFF;
+        }
+    }
+
+    .nav-menu--active + .project-header__main {
+        margin-left: 39.8vw
+    }
+}
+
+.bg-project-img1 {
+    background-image: url(../img/about-project-bg-1.png)
+}
+
+.bg-project-img2 {
+    background-image: url(../img/about-project-bg-2.png);
+}
+
+.bg-project-img3 {
+    background-image: url(../img/about-project-bg-3.png);
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
+    
+    // .project-img1 {
+    //     display: none;
+    // }
+
+
+    .project-page .project-block__btns {
+        flex-direction: column;
+    }
+
+    .project-page .project-block__container {
+        max-width: 900px;
+        width: auto !important;
+    }
+
+    .project-page .project-block__btns .button-in {
+        width: 100% !important;
+    }
+
+    .project-page .project-block__btns .button-next {
+        justify-content: center;
+    }
+
+    .bg-project-img1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .project-info__img {
+        display: none;
+    }
+
+    .project-info__wrap {
+        max-width: 900px !important;
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .project-info .project-info__title {
+        font-size: 25px;
+    }
+
+    .project-info .project-info__subtitle {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .project-info__container .project-info__stage span {
+        font-size: 16px;
+    }
+
+    .project-info__stage .stage-text {
+        font-size: 16px;
+    }
+
+    .project-info__container .project-info__apart .apart-text {
+        font-size: 16px;
+    }
+
+    .project-info__plan {
+        padding: 0 8px;
+    }
+
+    .project-header .header-languages {
+        margin-right: 0;
+    }
+
+    .project-info__stage {
+        margin-right: 30px;
+    }
+
+    .project-portfolio__img {
+        justify-content: center !important;
+    }
+
+    .project-portfolio__img .kvartiri__img {
+        width: 304px !important;
+        height: 176px !important;
+    }
+}

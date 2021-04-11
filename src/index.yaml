@@ -1,0 +1,14 @@
+ProjectTitle: ФНДК
+
+PageList:
+- file: page.html
+- file: inner-about.html
+- file: about-project.html
+- file: about-project-second.html
+- file: about-project-third.html
+- file: project-apart.html
+- file: project-complex.html
+- file: project-gymnasium.html
+- file: contacts.html
+- file: news-page.html
+  ready: 50
