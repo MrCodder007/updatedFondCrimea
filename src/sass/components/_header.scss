@@ -475,7 +475,7 @@
 
             .nav-menu__toggler {
                 left: 5%;
-                top: 5%;
+                top: 4%;
             }
         }
 
@@ -853,11 +853,19 @@
         width: 40px !important;
         height: 40px !important;
     }
+
+    .project__chapter {
+        padding-left: 15px;
+    }
 }
 
 
 
 @media (min-width: 901px) and (max-width: 1435px) {
+
+    .project__chapter {
+        padding-left: 15px;
+    }
 
     .page-header__content .content-main__title {
         font-size: 42px;
