@@ -9,6 +9,7 @@
     .fund-structure {
         max-width: 961px;
         width: 100%;
+        padding-left: 15px;
 
         &__wrap {
 
@@ -174,5 +175,32 @@
                 width: 100px;
             }
         }
-   }
+    }
+
+   .about-structure-inner {
+        padding: 0 15px;
+    }
+
+    .about-structure-inner__wrapper .fund-duties {
+        display: none;
+    }
+
+    .about-structure-inner, .about-structure-inner__wrapper, .project-header, .project-header__wrap {
+        max-width: 900px;
+        width: 100%;
+        // padding-left: 8px;
+        // padding-right: 8px;
+    }
+
+    .about-structure-inner .fund-structure .structure-position {
+        padding-left: 0 !important;
+    }
+
+    .about-structure-inner .fund-structure .structure-members__wrap {
+        padding-left: 0 !important;
+    }
+
+    .about-structure-inner .fund-structure .structure-members__name {
+        font-size: 16px;
+    }
 }

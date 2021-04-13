@@ -1,8 +1,9 @@
 .building-stage {
     display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    max-width: 1920px;
+    justify-content: left;
+    margin: 80px auto;
+    max-width: 1435px;
+
 
     &__wrap {
         max-width: 1435px;

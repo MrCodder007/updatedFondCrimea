@@ -14,6 +14,8 @@
         width: 1435px;
         padding-top: 73px;
         padding-bottom: 77px;
+        padding-left: 15px;
+        padding-right: 15px;
 
         &__title {
             max-width: 512px;
@@ -47,6 +49,8 @@
         justify-content: space-between;
         padding-top: 92px;
         padding-bottom: 77px;
+        padding-left: 15px;
+        padding-right: 15px;
 
         .plans-block {
             max-width: 377px;
@@ -83,5 +87,52 @@
                 }
             }
         }
+    }
+}
+
+@media (min-width:320px) and (max-width:900px) {
+    .about-inner-strategy .strategy-fund .strategy-fund__title {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .about-inner-strategy .strategy-fund .strategy-fund__subtitle {
+        font-size: 16px;
+    }
+
+    .about-inner-strategy .strategy-fund {
+        width: auto !important;
+        max-width: 900px;
+        flex-direction: column;  
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-inner-strategy .strategy-plans {
+        width: auto !important;
+        max-width: 900px;
+        flex-direction: column;
+        justify-content: center !important;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-inner-strategy .strategy-plans .plans-block:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .about-statistic-inner {
+        height: auto !important;
+        min-height: 418px;
+        padding-left: 8px;
+    }
+
+    .about-statistic-inner .about-statistic {
+        margin-bottom: 56px;
+    }
+
+    .about-inner-strategy .strategy-plans .plans-block__title {
+        font-size: 25px !important;
     }
 }

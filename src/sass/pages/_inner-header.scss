@@ -83,83 +83,11 @@
         width: 262px;
     }
 
-    .about-inner-strategy .strategy-fund .strategy-fund__title {
-        font-size: 25px;
-        line-height: 40px;
-        margin-bottom: 10px;
-    }
-
-    .about-inner-strategy .strategy-fund .strategy-fund__subtitle {
-        font-size: 16px;
-    }
-
-    .about-inner-strategy .strategy-fund {
-        width: auto !important;
-        max-width: 900px;
-        flex-direction: column;  
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .about-inner-strategy .strategy-plans {
-        width: auto !important;
-        max-width: 900px;
-        flex-direction: column;
-        justify-content: center !important;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .about-inner-strategy .strategy-plans .plans-block:not(:last-child) {
-        margin-bottom: 30px;
-    }
-
-    .about-statistic-inner {
-        height: auto !important;
-        min-height: 418px;
-        padding-left: 8px;
-    }
-
-    .about-statistic-inner .about-statistic {
-        margin-bottom: 56px;
-    }
-
-    .about-inner-strategy .strategy-plans .plans-block__title {
-        font-size: 25px !important;
-    }
-
-    .about-structure-inner__wrapper .fund-duties {
-        display: none;
-    }
-
     .main-header__title {
         display: none;
     }
 
     .main-header, .main-header__wrap {
         height: 100px;
-    }
-
-    .about-structure-inner {
-        padding: 0 15px;
-    }
-
-    .about-structure-inner, .about-structure-inner__wrapper, .project-header, .project-header__wrap {
-        max-width: 900px;
-        width: 100%;
-        // padding-left: 8px;
-        // padding-right: 8px;
-    }
-
-    .about-structure-inner .fund-structure .structure-position {
-        padding-left: 0 !important;
-    }
-
-    .about-structure-inner .fund-structure .structure-members__wrap {
-        padding-left: 0 !important;
-    }
-
-    .about-structure-inner .fund-structure .structure-members__name {
-        font-size: 16px;
     }
 }

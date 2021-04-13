@@ -493,97 +493,8 @@
             }
         }
     }
-    
-    .site-content {
-
-        .about {
-            padding-top: 38px;
-        }
-    }
-
-    .about-fund__img {
-        display: none;
-    }
-    
-    .about-adress__img {
-        display: none;
-    }
-
-    .about-statistic {
-        flex-direction: column;
-    }
-
-    .about-adress__location {
-        display: none !important;
-    }
-
-    .about-plans__wrap {
-        justify-content: center;
-    }
-
-    .about-fund {
-        justify-content: center;
-        padding: 0 15px;
-    }
-
-    .about-fund__title {
-        font-size: 25px;
-    }
-
-    .about-fund__subtitle {
-        font-size: 16px;
-        position: relative;
-
-        &::after {
-            position: absolute;
-            left: 0;
-            width: 50%;
-        }
-    }
-
-    .statistic-subtitle {
-        font-size: 16px;
-    }
-
-    .about-statistic__container:not(:last-child) {
-        margin-bottom: 50px;
-    }
-
-    .about-statistic {
-        margin-top: 56px;
-    }
-
     .btn-all {
         display: none !important;
-    }
-
-    .news {
-        padding: 0 15px;
-    }
-
-    .news-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .news__wrapper {
-        width: auto !important;
-    }
-
-    .news-list__img {
-        width: 302px !important;
-    }
-    
-    .description-list {
-        width: 100%;
-    }
-
-    .news-list__item:not(:last-child) {
-        margin-bottom: 25px;
-    }
-
-    .description-list__subtitle {
-        margin-top: 10px !important;
     }
 
     .contact__wrap {
@@ -630,60 +541,6 @@
         width: 100% !important;
     }
 
-    .page-footer__wrap {
-        flex-direction: column;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .footer-nav-menu {
-        display: flex;
-        flex-direction: column;
-        margin-left: 20px;
-    }
-
-    .footer-nav-menu__list {
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 210px;
-        max-width: 234px;
-    }
-
-    .footer-nav-menu__item {
-        margin-bottom: 42px;
-    }
-
-    .form-subscribe {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer-logo {
-        width: 134px;
-        height: 134px;
-    }
-
-    .page-footer__form {
-        align-self: center;
-        max-width: 900px;
-        width: 100%;
-    }
-
-    .page-footer__form .form__title {
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .page-footer__form .form-subscribe__btn {
-        margin-left: 0;
-        width: 100%;
-        margin-top: 14px;
-    }
-
-    .page-footer__form .form-subscribe__email {
-        width: 100%;
-    }
-
     .contact {
 
         .underline {
@@ -691,50 +548,9 @@
         }
     }
 
-    .project__wrapper .project-list__wrap {
-        flex-direction: column;
-        // width: 100vw !important;
-    }
-
-    .project .project__wrapper {
-        width: auto;
-    }
-
-    .project-list__item .item-slide {
-        display: none !important;
-    }
-
-    .project-list {
-        margin-bottom: 25px;
-        align-self: center;
-        width: 100vw;
-    }
-
-    .news-card--3 {
-        display: none;
-    } 
-
-    .slick-dots li button:before {
-        background-color: transparent;
-        border: 1px solid #FFFFFF;
-    }
-
-    .slick-dots li button:hover:before, .slick-dots li.slick-active button:before {
-        background-color: #FFFFFF;
-    }
-
     .page-header__content .content-main__wrapper {
         height: 60%;
         color: #FFFFFF;
-    }
-
-    .about-plans .plans-list__window--hover:hover .plans-list__popup {
-        max-width: 562px;
-        width: 100%;
-    }
-
-    .about-plans .plans-list__window--hover:focus {
-        cursor: pointer;
     }
 
     .project-infostructure__img2, .project-infostructure__img3 {
@@ -826,37 +642,6 @@
     .about-structure-inner .fund-structure .structure-members__wrap {
         margin-left: 21px;
     }
-
-    .contacts-header .nav-menu__wrap {
-        max-width: 662px !important;
-        margin: 0 auto;
-    }
-
-    .contacts-header .contacts-toggler {
-        padding-left: 8px !important;
-    }
-
-    .contacts-header .contacts-languages {
-        margin-right: 8px !important;
-    }
-
-    .contacts-header .social-list {
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-
-    .contacts-header .social-list__item {
-        margin-left: 11px !important;
-    }
-
-    .contacts-header .social-list__item {
-        width: 40px !important;
-        height: 40px !important;
-    }
-
-    .project__chapter {
-        padding-left: 15px;
-    }
 }
 
 
@@ -875,26 +660,6 @@
         bottom: 0;
         right: 7%;
     }
-
-    .about-plans .about-adress__location {
-        display: none;
-    }
-
-    .about {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-
-    .about-statistic .statistic-subtitle {
-        max-width: 147px;
-    }
-
-    .about-statistic {
-        max-width: 901px;
-        margin: 0 auto;
-        margin-top: 100px;
-    }
-
     .project {
         margin-top: 100px;
     }

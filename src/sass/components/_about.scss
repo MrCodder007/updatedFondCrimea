@@ -1,5 +1,7 @@
 .about {
     padding-top: 86px;
+    padding-left: 15px;
+    padding-right: 15px;
 
     &__wrapper {
         max-width: 1435px;
@@ -179,5 +181,96 @@
             line-height: 22px;
             margin-top: 16px;
         }
+    }
+}
+
+@media (min-width:320px) and (max-width:900px) {
+    .site-content {
+
+        .about {
+            padding-top: 38px;
+        }
+    }
+
+    .about-fund__img {
+        display: none;
+    }
+    
+    .about-adress__img {
+        display: none;
+    }
+
+    .about-statistic {
+        flex-direction: column;
+    }
+
+    .about-adress__location {
+        display: none !important;
+    }
+
+    .about-plans__wrap {
+        justify-content: center;
+    }
+
+    .about-plans .plans-list__window--hover:hover .plans-list__popup {
+        max-width: 562px;
+        width: 100%;
+    }
+
+    .about-plans .plans-list__window--hover:focus {
+        cursor: pointer;
+    }
+
+    .about-fund {
+        justify-content: center;
+        // padding: 0 15px;
+    }
+
+    .about-fund__title {
+        font-size: 25px;
+    }
+
+    .about-fund__subtitle {
+        font-size: 16px;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            left: 0;
+            width: 50%;
+        }
+    }
+
+    .statistic-subtitle {
+        font-size: 16px;
+    }
+
+    .about-statistic__container:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .about-statistic {
+        margin-top: 56px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1435px) {
+    .about-plans .about-adress__location {
+        display: none;
+    }
+
+    .about {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-statistic .statistic-subtitle {
+        max-width: 147px;
+    }
+
+    .about-statistic {
+        max-width: 1280px;
+        margin: 0 auto;
+        margin-top: 100px;
     }
 }

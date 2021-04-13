@@ -58,9 +58,7 @@
     }
 
     &__apart {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        display: inline-block;
 
         .apart-title {
             font-weight: 600;
@@ -83,4 +81,8 @@
         height: 610px;
         align-self: flex-end;
     }
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
+    
 }
