@@ -84,6 +84,8 @@
         .top-img {
             border-top-right-radius: 6px;
             border-top-left-radius: 6px;
+            max-height: 326px;
+            height: max-content;
         }
 
         &__item {
