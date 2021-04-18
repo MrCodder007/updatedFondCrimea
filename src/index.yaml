@@ -8,6 +8,8 @@ PageList:
 - file: about-project-third.html
 - file: project-apart.html
 - file: project-complex.html
+- file: project-complex-2.html
+- file: project-complex-3.html
 - file: contacts.html
 - file: news-page.html
   ready: 50
