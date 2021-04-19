@@ -199,6 +199,7 @@
 
         .project-bg {
             width: 100%;
+            background-size: cover !important;
         }
 
         .project-bg__wrap {
@@ -207,7 +208,7 @@
 
         .hero-languages {
             right: 3%;
-            top: -202%;
+            top: -200%;
             position: absolute;
         }
     }
