@@ -181,8 +181,11 @@
     }
 
     .contacts-header .social-list {
-        margin: 0 auto;
-        margin-bottom: 50px;
+        margin: 25px auto 50px;
+    }
+    
+    .contacts__text {
+        max-width: 215px;
     }
 
     .contacts-header .social-list__item {
